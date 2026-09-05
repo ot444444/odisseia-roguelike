@@ -1,7 +1,6 @@
 # Odisseia
 
-> Roguelike acadêmico inspirado na Odisseia, desenvolvido em equipe no Construct 3 como projeto da PUCPR.
-
+> Roguelike top-down inspirado na Odisseia e na mitologia grega, desenvolvido em equipe no Construct 3 como projeto acadêmico de Ciência da Computação na PUCPR.
 **Status:** Em desenvolvimento
 
 ![Hub do barco](screenshots/ship-hub.png)
@@ -37,3 +36,4 @@ Algumas salas culminam em encontros com chefes inspirados nos desafios da jornad
 Após determinados encontros, o jogador pode receber recompensas que contribuem para sua progressão.
 
 ![Recompensa após o boss](screenshots/boss-reward.png)
+

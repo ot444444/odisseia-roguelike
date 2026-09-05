@@ -19,10 +19,9 @@ O jogador progride por diferentes salas, enfrenta inimigos e recebe recompensas 
 
 ![Gameplay](screenshots/gameplay-room.png)
 
-O sistema de combate foi planejado em torno de três estilos de arma:
+O sistema de combate foi planejado em torno de dois estilos de arma:
 
-- Arma leve
-- Arma pesada
+- Espada
 - Arco e flecha
 
 ## Bosses

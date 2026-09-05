@@ -37,3 +37,16 @@ Após determinados encontros, o jogador pode receber recompensas que contribuem 
 
 ![Recompensa após o boss](screenshots/boss-reward.png)
 
+## Minha contribuição
+
+Minha participação no projeto envolve tanto a concepção quanto o desenvolvimento do jogo.
+
+- Propus a ideia de desenvolver um roguelike inspirado na **Odisseia** e em elementos da mitologia grega.
+- Participei do **game design**, especialmente na criação e no desenvolvimento dos conceitos dos itens.
+- Desenvolvi no **Construct 3 a primeira versão jogável do projeto**, implementando o protótipo inicial utilizado como base para a evolução do jogo.
+- Participo dos testes, discussões e iterações das mecânicas junto à equipe.
+
+O projeto continua sendo desenvolvido de forma colaborativa, com diferentes integrantes contribuindo para sua evolução.
+
+
+

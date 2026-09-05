@@ -4,6 +4,8 @@
 
 **Status:** Em desenvolvimento
 
+![Hub do barco](screenshots/ship-hub.png)
+
 ## Sobre o projeto
 
 Odisseia é um jogo roguelike top-down inspirado na obra de Homero e na mitologia grega.
@@ -14,53 +16,24 @@ A proposta é transformar elementos da jornada de Odisseu em mecânicas de um ro
 
 ## Gameplay
 
-O jogo está sendo desenvolvido com uma estrutura baseada em salas, nas quais o jogador enfrenta inimigos e progride pela jornada.
+O jogador progride por diferentes salas, enfrenta inimigos e recebe recompensas durante sua jornada.
 
-O sistema de combate foi planejado em torno de dois estilos de arma:
+![Gameplay](screenshots/gameplay-room.png)
+
+O sistema de combate foi planejado em torno de três estilos de arma:
 
 - Arma leve
+- Arma pesada
 - Arco e flecha
 
-Cada ilha representa uma etapa da jornada e possui identidade própria, inimigos e encontros relacionados à Odisseia.
+## Bosses
 
-## Game Design
+Algumas salas culminam em encontros com chefes inspirados nos desafios da jornada de Odisseu.
 
-Durante o desenvolvimento, estamos trabalhando em conceitos como:
+![Brutamonte Lestrigão](screenshots/boss-lestrigao.png)
 
-- Sistema de salas
-- Combate
-- Diferentes tipos de armas
-- Inimigos
-- Bosses
-- Itens e recompensas
-- Progressão entre ilhas
-- Prototipação e testes de mecânicas
+## Progressão
 
-Como o projeto ainda está em desenvolvimento, algumas dessas mecânicas podem ser modificadas durante os testes e iterações.
+Após determinados encontros, o jogador pode receber recompensas que contribuem para sua progressão.
 
-## Desenvolvimento
-
-O projeto utiliza **Construct 3** para desenvolvimento e prototipação do jogo.
-
-O processo envolve planejamento de mecânicas, criação de conceitos, prototipação, implementação, testes e iteração a partir dos resultados obtidos durante o desenvolvimento.
-
-## Minha contribuição
-
-Minha participação no projeto inclui principalmente:
-
-- Desenvolvimento e discussão de conceitos de gameplay
-- Design de mecânicas
-- Criação e desenvolvimento de ideias para itens e bosses
-- Prototipação e testes
-- Discussão e iteração das mecânicas junto à equipe
-- Uso de ferramentas de IA como apoio durante partes do processo criativo e de prototipação
-
-## Projeto acadêmico
-
-Projeto desenvolvido em equipe durante o curso de Ciência da Computação da PUCPR.
-
-Este repositório documenta o desenvolvimento do projeto e será atualizado conforme novas versões forem produzidas.
-
----
-
-**Work in Progress — 2026**
+![Recompensa após o boss](screenshots/boss-reward.png)

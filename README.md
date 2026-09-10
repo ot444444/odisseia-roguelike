@@ -82,6 +82,8 @@ Na seção 10.1, o documento propõe um processo de esboço pela equipe seguido 
 
 As ferramentas e os usos de IA pelos demais integrantes serão detalhados conforme confirmação da equipe.
 
-## Acesso ao protótipo
+## Demonstração do protótipo
 
-Este repositório reúne a apresentação do projeto e suas screenshots. Uma demonstração em vídeo ou um link para jogar no navegador ainda será acrescentado.
+[▶ Assistir à gameplay da Odisseia no Google Drive](https://drive.google.com/file/d/1pOx2Wtugwh8vLxMX7yTQbNUXS8hoGke4/view)
+
+O vídeo apresenta movimentação, combate, confronto com o Brutamonte Lestrigão, recompensa e o barco utilizado como hub. Este repositório também reúne screenshots do protótipo em desenvolvimento.

@@ -74,13 +74,13 @@ As screenshots acima são registros do protótipo. O documento de design e essas
 
 ## Uso de inteligência artificial
 
-Na minha contribuição ao projeto, utilizei IA como apoio à organização do código.
+Na minha contribuição ao projeto, utilizei o ChatGPT, com o modelo Sol, como apoio à organização do código.
 
 O GDD atribui a área de arte e assets, incluindo geração assistida por IA, a Rafael Freitas Cazula de Oliveira.
 
 Na seção 10.1, o documento propõe um processo de esboço pela equipe seguido de finalização com IA e cita Leonardo.ai, Scenario.gg, PixelLab, Retro Diffusion e Midjourney como ferramentas planejadas. Essa relação não confirma o uso efetivo de cada ferramenta.
 
-Os nomes das ferramentas efetivamente utilizadas e os usos de IA pelos demais integrantes serão detalhados conforme confirmação da equipe.
+As ferramentas e os usos de IA pelos demais integrantes serão detalhados conforme confirmação da equipe.
 
 ## Acesso ao protótipo
 

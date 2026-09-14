@@ -6,6 +6,18 @@
 
 ![Hub do barco](screenshots/ship-hub.png)
 
+## Arquivo do protótipo - V3.8
+
+[Baixar o projeto Odisseia V3.8 para Construct 3](Odisseia_V3_8_SistemaDeItens.c3p?raw=true)
+
+Versão base disponibilizada por Otávio em 14/09/2026 como registro de um projeto acadêmico ainda em desenvolvimento. O arquivo `.c3p` contém o projeto editável, o código e as imagens; não é um jogo exportado para execução direta.
+
+Para abrir, baixe o arquivo e abra-o no editor do Construct 3. Use a pré-visualização do editor para executar o protótipo.
+
+As notas internas `REVISAO_V3_8.txt` descrevem a implementação dos efeitos de nove itens. O nome e a descrição internos do projeto ainda mencionam V3.7, a base desta revisão; o arquivo original foi preservado. O GDD e os registros de gameplay podem representar etapas diferentes.
+
+A conferência de publicação verificou a integridade do pacote, a leitura dos arquivos JSON e a sintaxe do JavaScript. Não substitui um teste de funcionamento no Construct 3.
+
 ## Sobre o projeto
 
 Odisseia é um jogo roguelike top-down inspirado na obra de Homero e na mitologia grega.

@@ -1,101 +1,102 @@
-# Odisseia
+# Odisseia — Caminho de Keris
 
-> Roguelike top-down inspirado na Odisseia e na mitologia grega, desenvolvido em equipe no Construct 3 como projeto acadêmico de Ciência da Computação na PUCPR.
+> Jogo de ação 2D top-down inspirado na jornada de Odisseu, desenvolvido em equipe no Construct 3 como projeto acadêmico de Ciência da Computação na PUCPR.
 
-**Status:** Em desenvolvimento
+**Status: projeto acadêmico concluído.** Versão final: `Odisseia_Final_v3.c3p`.
 
-![Hub do barco](screenshots/ship-hub.png)
+![Tela inicial — Caminho de Keris](screenshots/menu-final.png)
 
-## Arquivo do protótipo - V3.8
+## Conheça o jogo
 
-[Baixar o projeto Odisseia V3.8 para Construct 3](Odisseia_V3_8_SistemaDeItens.c3p?raw=true)
+Após deixar Troia, Odisseu chega à Ilha dos Lestrigões. Explore salas geradas proceduralmente, enfrente os inimigos com sua espada e sobreviva até o confronto com o chefe da ilha.
 
-Versão base disponibilizada em 14/09/2026 como registro de um projeto acadêmico ainda em desenvolvimento. O arquivo `.c3p` contém o projeto editável, o código e as imagens; não é um jogo exportado para execução direta.
+O projeto foi desenvolvido por cinco estudantes na disciplina **Experiência Criativa — Explorando Computação e Inteligência Artificial**, da PUCPR. “Odisseia” é o nome do projeto; “Caminho de Keris” é o título apresentado na tela inicial.
 
-Para abrir, baixe o arquivo e abra-o no editor do Construct 3. Use a pré-visualização do editor para executar o protótipo.
+### O que está na versão final
 
-As notas internas `REVISAO_V3_8.txt` descrevem a implementação dos efeitos de nove itens. O nome e a descrição internos do projeto ainda mencionam V3.7, a base desta revisão; o arquivo original foi preservado. O GDD e os registros de gameplay podem representar etapas diferentes.
+- Uma ilha com salas conectadas, geradas por random walk em uma grade 5 × 5.
+- Movimentação em oito direções, combate com espada e dash.
+- Portas que permanecem trancadas enquanto houver inimigos na sala.
+- Quatro corações de vida e coleta de moedas ao derrotar inimigos.
+- Inimigos comuns e um chefe dos Lestrigões.
+- Menu inicial, painel de controles, telas de derrota e vitória e reinício da partida.
 
-A conferência de publicação verificou a integridade do pacote, a leitura dos arquivos JSON e a sintaxe do JavaScript. Não substitui um teste de funcionamento no Construct 3.
+![Combate na Ilha dos Lestrigões](screenshots/combate-final.png)
 
-## Sobre o projeto
+## Baixar e executar
 
-Odisseia é um jogo roguelike top-down inspirado na obra de Homero e na mitologia grega.
+**[Baixar o projeto final para Construct 3](Odisseia_Final_v3.c3p?raw=true)** · **[Ler o GDD final 3.1](GDD_Odisseia_Final_3.1.pdf)**
 
-O projeto é desenvolvido por cinco estudantes na disciplina **Experiência Criativa — Explorando Computação e Inteligência Artificial**, do curso de Ciência da Computação da PUCPR.
+1. Baixe o arquivo `Odisseia_Final_v3.c3p`.
+2. Abra o arquivo no [editor do Construct 3](https://editor.construct.net/).
+3. Execute a pré-visualização do projeto a partir do layout **Menu**.
+4. Clique em **Início** para começar.
 
-A proposta é transformar elementos da jornada de Odisseu em mecânicas de um roguelike, utilizando salas, combate, diferentes estilos de armas, itens, inimigos e chefes inspirados na mitologia.
+O `.c3p` é o projeto editável do Construct 3, com eventos e assets. Ele não é um executável independente nem uma versão publicada para jogar diretamente no navegador.
 
-## Gameplay
-
-O jogador progride por diferentes salas, enfrenta inimigos e recebe recompensas durante sua jornada.
-
-![Gameplay](screenshots/gameplay-room.png)
-
-O GDD versão 1.00, de 05/09/2026, descreve combate corpo a corpo e dash. O sistema de múltiplas armas permanece em definição nessa versão do documento.
-
-## Bosses
-
-Algumas salas culminam em encontros com chefes inspirados nos desafios da jornada de Odisseu.
-
-![Brutamonte Lestrigão](screenshots/boss-lestrigao.png)
-
-## Progressão
-
-Após determinados encontros, o jogador pode receber recompensas que contribuem para sua progressão.
-
-![Recompensa após o boss](screenshots/boss-reward.png)
+| Ação | Controle |
+|---|---|
+| Mover | W, A, S, D |
+| Atacar | Setas direcionais |
+| Dash | Shift |
 
 ## Minha contribuição
 
-Minha participação no projeto envolve tanto a concepção quanto o desenvolvimento do jogo.
+Sou **Otávio Piragine Kavinski**, estudante de Ciência da Computação na PUCPR. Conforme o GDD final, participei de quatro áreas do projeto:
 
-- Propus a ideia de desenvolver um roguelike inspirado na **Odisseia** e em elementos da mitologia grega.
-- Participei do **game design**, especialmente na criação e no desenvolvimento dos conceitos dos itens.
-- Desenvolvi no **Construct 3 a primeira versão jogável do projeto**, implementando o protótipo inicial utilizado como base para a evolução do jogo.
-- Participo dos testes, discussões e iterações das mecânicas junto à equipe.
+- **Programação no Construct 3**, compartilhada com Hamilton Licheski Filho.
+- **Design de jogo e narrativa**, junto a Gabriel Grochocki da Silva e Bruno César Souza Ferreira.
+- **Documentação**, compartilhada com Hamilton Licheski Filho.
+- **Produção e coordenação**, compartilhadas com Hamilton Licheski Filho.
 
-O projeto continua sendo desenvolvido de forma colaborativa, com diferentes integrantes contribuindo para sua evolução.
+O desenvolvimento foi colaborativo. Os sistemas descritos neste repositório representam o resultado da equipe; os créditos abaixo registram a divisão de responsabilidades.
 
-## Equipe e créditos
+## Equipe
 
-Divisão de responsabilidades registrada no **Game Design Document, versão 1.00, de 05/09/2026**, páginas 9 e 10:
+Responsabilidades registradas na seção 9 do GDD final 3.1, de 20/09/2026:
 
 | Área | Responsáveis |
 |---|---|
 | Programação — Construct 3 | Hamilton Licheski Filho e Otávio Piragine Kavinski |
-| Design de jogo e narrativa | Gabriel Grochocki da Silva e Bruno César Souza Ferreira |
+| Design de jogo e narrativa | Gabriel Grochocki da Silva, Bruno César Souza Ferreira e Otávio Piragine Kavinski |
 | Arte e assets, incluindo geração assistida por IA | Rafael Freitas Cazula de Oliveira |
-| Documentação | Hamilton Licheski Filho |
+| Documentação | Hamilton Licheski Filho e Otávio Piragine Kavinski |
 | Produção e coordenação | Hamilton Licheski Filho e Otávio Piragine Kavinski |
 
-Os cinco integrantes também constam como autores da versão inicial do GDD. As funções são colaborativas; a seção “Minha contribuição” detalha minha participação individual no projeto.
+## Desenvolvimento e escopo
 
-## Referências de design
+A lógica do jogo utiliza os eventos do Construct 3, com variáveis, arrays, condições e repetições para organizar a geração das salas, o combate e as transições de estado. A estrutura do mapa é armazenada no array `MapaSalas`, e a contagem de inimigos controla a abertura das portas.
 
-- **The Binding of Isaac:** estrutura de salas, câmera, escala e gameplay.
-- **Hades:** estilo visual e estrutura de hub entre partidas.
-- **Cult of the Lamb:** direção visual e roguelike de ação.
-- **Enigma do Medo:** proporções exageradas dos cenários.
+Para concluir o projeto no prazo acadêmico de um mês, a equipe concentrou o escopo em uma ilha, uma espada e um chefe. Barco, companheiros, outras ilhas, baús, arco e o confronto com Poseidon ficaram fora da entrega final.
 
-## Escopo e documentação
+![Chefe dos Lestrigões](screenshots/chefe-final.png)
 
-O GDD 1.00 registra as decisões da equipe em **05/09/2026**. O recorte planejado para o protótipo é de três ilhas; o escopo ampliado, as múltiplas armas, os companheiros e o confronto final com Poseidon incluem pontos ainda em definição.
+### Ajustes da versão final v3
 
-As screenshots acima são registros do protótipo. O documento de design e essas imagens podem representar momentos diferentes do desenvolvimento; o cronograma do GDD não deve ser interpretado como uma lista atualizada de funcionalidades concluídas.
+- Alcance da espada ampliado de 44 para 56 pixels.
+- Velocidade dos inimigos e do chefe reduzida em 20%.
+- Chefe com 100 pontos de vida e dano de 1 coração.
+- Área vulnerável do jogador reduzida e área de ataque ampliada.
 
-## Uso de inteligência artificial
+**Sobre o GDD:** o documento 3.1 registra o escopo e os créditos finais, mas antecede os últimos ajustes do jogo. Nele, o chefe ainda aparece com 300 pontos de vida e dano de 2 corações, e o status do menu não foi atualizado. Para esses detalhes, valem o arquivo final v3 e as notas acima.
 
-Na minha contribuição ao projeto, utilizei o ChatGPT, com o modelo Sol, como apoio à organização do código.
+### Verificação
 
-O GDD atribui a área de arte e assets, incluindo geração assistida por IA, a Rafael Freitas Cazula de Oliveira.
+O registro de testes da entrega inclui abertura no Construct, menu, controles, combate, morte, reinício e transição de vitória em cenário controlado. A conferência desta publicação validou a integridade do `.c3p` e a leitura de seus arquivos JSON; não representa uma nova rodada de testes de gameplay.
 
-Na seção 10.1, o documento propõe um processo de esboço pela equipe seguido de finalização com IA e cita Leonardo.ai, Scenario.gg, PixelLab, Retro Diffusion e Midjourney como ferramentas planejadas. Essa relação não confirma o uso efetivo de cada ferramenta.
+## Histórico do projeto
 
-As ferramentas e os usos de IA pelos demais integrantes serão detalhados conforme confirmação da equipe.
+A [versão anterior V3.8](Odisseia_V3_8_SistemaDeItens.c3p?raw=true) foi preservada como registro do desenvolvimento. Sua numeração pertence a uma etapa anterior e não indica que seja mais recente que `Odisseia_Final_v3.c3p`.
 
-## Demonstração do protótipo
+O [vídeo do protótipo no Google Drive](https://drive.google.com/file/d/1pOx2Wtugwh8vLxMX7yTQbNUXS8hoGke4/view) e as imagens antigas deste repositório mostram uma etapa anterior, incluindo o barco. Eles não representam o escopo final.
 
-[▶ Assistir à gameplay da Odisseia no Google Drive](https://drive.google.com/file/d/1pOx2Wtugwh8vLxMX7yTQbNUXS8hoGke4/view)
+## Referências e apoio de IA
 
-O vídeo apresenta movimentação, combate, confronto com o Brutamonte Lestrigão, recompensa e o barco utilizado como hub. Este repositório também reúne screenshots do protótipo em desenvolvimento.
+Referências de design registradas no GDD: **The Binding of Isaac** (salas, câmera e gameplay), **Hades** e **Cult of the Lamb** (direção visual), e **Enigma do Medo** (proporções dos cenários).
+
+O projeto contou com apoio do ChatGPT na organização e revisão da lógica, em ajustes do jogo e na documentação. O GDD registra geração assistida por IA na área de arte e assets; a lista de ferramentas planejadas no documento não confirma o uso individual de cada ferramenta.
+
+---
+
+[GitHub de Otávio](https://github.com/ot444444) · [LinkedIn](https://www.linkedin.com/in/otavio-kavinski-4538a22b6/)
+
